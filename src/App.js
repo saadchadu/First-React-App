@@ -1,7 +1,12 @@
 
+import './App.css';
+import Header from './components/Header';
+
+const name = 'Saad Chadu';
 function App() {
   return (
-    <h1>Saad You Can</h1>
+    <Header name={name} />
+    
   );
 }
 
